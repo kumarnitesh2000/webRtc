@@ -5,4 +5,4 @@ COPY . ./
 RUN ["npm","install"]
 RUN ["npm","install","-g","peer"]
 CMD ["node","server.js"]
-CMD ["peerjs","--port","3001"]
+#CMD ["peerjs","--port","3001"]
